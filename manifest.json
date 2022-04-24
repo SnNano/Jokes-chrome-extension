@@ -1,0 +1,21 @@
+{
+    "name": "Funny jokes",
+    "description": "Get funny and random jokes anytime",
+    "manifest_version":3,
+    "version":"1.0.0",
+    "icons": {
+        "16":"icon_1.png",
+        "48":"icon_1.png",
+        "128":"icon_1.png"
+    },
+    "host_permissions": [
+        "<all_urls>"
+          ],
+    "background": {
+        "service_worker":"background.js"
+    },
+    "action": {
+        "default_title":"Random jokes",
+        "default_popup":"background.html"
+    }
+}
